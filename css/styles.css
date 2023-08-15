@@ -123,10 +123,9 @@ h1 i {
     bottom: 10px;
     font-size: 1.2rem;
     cursor: pointer;
-    background-color: #333;
     padding: 5px;
     border-radius: 5px;
-    color: #fff;
+    color: #aaa;
 }
   
 .note:hover > i {
@@ -141,7 +140,7 @@ h1 i {
     font-size: 0.9rem;
     cursor: pointer;
     padding: 5px;
-    color: #333;
+    color: #aaa;
     opacity: 0;
     transition: 0.3s;
 }
@@ -155,10 +154,14 @@ h1 i {
     color: #fff;
 }
   
-.note.fixed {
+/* .note.fixed {
     background-color: #2f2f31;
-}
+} */
 
+.note.fixed .bi-pin {
+    color: #fff;
+    background-color: #333;
+}
 
 @media(max-width: 450px) {
     header {
